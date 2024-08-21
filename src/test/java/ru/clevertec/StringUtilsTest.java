@@ -12,7 +12,7 @@ class StringUtilsTest {
         assertTrue(StringUtils.isPositiveNumber("123.45"));
         assertFalse(StringUtils.isPositiveNumber("-123"));
         assertFalse(StringUtils.isPositiveNumber("0"));
-        assertFalse(StringUtils.isPositiveNumber("abc"));
+        assertFalse(StringUtils.isPositiveNumber("abc12")); 
         assertFalse(StringUtils.isPositiveNumber(""));
         assertFalse(StringUtils.isPositiveNumber(null));
     }
