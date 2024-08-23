@@ -1,0 +1,16 @@
+plugins {
+    id 'java-gradle-plugin'
+}
+
+gradlePlugin {
+    plugins {
+        customJacocoPlugin {
+            id = "my-jacoco"
+            implementationClass = "plugin.CustomJacocoPlugin"
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
